@@ -1,8 +1,8 @@
 ; vim: ft=colortemplate fdm=marker
 
 ; Information {{{
-Full name:       Solarized 8
-Short name:      solarized8
+Full name:       Solarized 8 (eo)
+Short name:      solarized8_eo
 Include:        _info.colortemplate
 ; }}}
 ; Documentation {{{
@@ -166,7 +166,7 @@ Directory            blue              none
 EndOfBuffer          none              none
 ErrorMsg             red               base3             reverse
 IncSearch            orange            none              standout
-MatchParen           base3             base02            bold
+MatchParen           yellow            base02            bold
 ModeMsg              blue              none
 MoreMsg              blue              none
 Pmenu                base1             base02
@@ -175,7 +175,6 @@ PmenuSel             base2             base00
 PmenuThumb           none              base0
 Question             cyan              none              bold
 Search               yellow            none              reverse
-SignColumn           base0             none
 Visual               base01            base03            reverse
 VisualNOS            none              base02            reverse
 WarningMsg           orange            none              bold
@@ -295,7 +294,7 @@ Include: _light_terminal.colortemplate
   #endif
   CursorLineNr       base0             base02            bold
   LineNr             base00            base02
-  MatchParen         red               base02            bold,underline
+  MatchParen         yellow            base02            bold
   NonText            base00            none              bold
   SpecialKey         base00            base02            bold
   SpellBad           magenta           none              t=underline g=undercurl s=violet
@@ -384,7 +383,6 @@ PmenuSel             base02            base00
 PmenuThumb           none              base0
 Question             cyan              none              bold
 Search               yellow            none              reverse
-SignColumn           base0             none
 Visual               base01            base03            reverse
 VisualNOS            none              base02            reverse
 WarningMsg           orange            none              bold

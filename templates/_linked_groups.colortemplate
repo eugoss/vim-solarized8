@@ -28,3 +28,29 @@ Tag               -> Special
 Typedef           -> Type
 lCursor           -> Cursor
 
+; Let them have the same color
+SignColumn        -> ColorColumn
+
+; Markdown
+mkdHeading     -> PreProc
+htmlH1         -> mkdHeading
+htmlH2         -> mkdHeading
+htmlH3         -> mkdHeading
+htmlH4         -> mkdHeading
+htmlH5         -> mkdHeading
+htmlH6         -> mkdHeading
+htmlLink       -> DiffChange
+mkdItalic      -> Underlined
+htmlItalic     -> mkdItalic
+mkdBold        -> Todo
+htmlBold       -> mkdBold
+mkdBoldItalic  -> mkdBold
+htmlBoldItalic -> mkdBoldItalic
+
+; ALE
+ALEErrorSign   -> Special
+ALEWarningSign -> Type
+
+; CtrlSF
+ctrlsfSelectedLine -> Todo
+ctrlsfFilename     -> qfFileName
